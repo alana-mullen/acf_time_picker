@@ -28,26 +28,6 @@
  *     - 1.1  Change name to Date and Time Picker to reflect the new option to select between Date and Time picker or Time picker only.
  *     - 1.0: Initial version  
  *
- *  Latest version: http://soderlind.no/download/acf_time_picker.zip
- *
- *
- *  Installation:
- *     - Extract http://soderlind.no/download/acf_time_picker.zip in your theme folder (WordPress child theme is supported). 
- *       After you have extracted the file, you should have the following subdirectories in your theme folder:
- *   
- *       acf_time_picker      
- *             |____ css
- *             | |____ images
- *             |____ js
- *
- *
- *     - Add the following to your themes functions.php (functions.php in a WordPress child theme is supported):
- *       <?php
- *       if(function_exists('register_field')) {
- *	         register_field('acf_time_picker', dirname(__File__) . '/acf_time_picker/acf_time_picker.php');
- *       }
- *       ?>
- *
  *  Credit: 
  *     Advanced Custom Fields - Time Picker field uses the jQuery timepicker addon (http://trentrichardson.com/examples/timepicker/)
  *     By: Trent Richardson [http://trentrichardson.com]
